@@ -36,6 +36,6 @@ int maxsum(int r[],int left,int right){
 int main(){
 	int r[8]={-10,8,-3,6,-5,4,3,-7};
 	int max=maxsum(r,0,7);
-	printf("×î´óÖľ%d",max);
+	printf("%d",max);
 	return 0;
 } 
