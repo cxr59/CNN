@@ -1,6 +1,7 @@
 #include<stdio.h>
-//first changed on local 
-//second changed on web 
+//first changed on local false 
+//second changed on web achive
+//third changed by local 
 int maxsum(int r[],int left,int right){
 	int max=-999999,leftmax,rightmax,midmax;
 	int s1=0,mLmax,s2=0,mRmax;
