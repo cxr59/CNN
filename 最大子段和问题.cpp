@@ -1,5 +1,6 @@
 #include<stdio.h>
-//第一次修改 
+//first changed on web 
+//second changed on web 
 int maxsum(int r[],int left,int right){
 	int max=-999999,leftmax,rightmax,midmax;
 	int s1=0,mLmax,s2=0,mRmax;
@@ -35,6 +36,6 @@ int maxsum(int r[],int left,int right){
 int main(){
 	int r[8]={-10,8,-3,6,-5,4,3,-7};
 	int max=maxsum(r,0,7);
-	printf("最大值%d",max);
+	printf("脳卯麓贸脰木%d",max);
 	return 0;
 } 
