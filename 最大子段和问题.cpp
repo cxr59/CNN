@@ -1,31 +1,5 @@
 #include<stdio.h>
-//int MaxSum(int a[],int left,int right){
-//	int sum=0,midSum=0,leftSum=0,rightSum=0;
-//	int i,center,s1,s2,lefts,rigths;
-//	if(left==right)
-//		sum=a[left];
-//	else
-//	{
-//		center=(left+right)/2;
-//		leftSum=MaxSum(a,left,center);
-//		rightSum=MaxSum(a,center+1,right);
-//		s1=0;lefts=0;
-//		for(i=center;i>=left;i--){
-//			lefts+=a[i];
-//			if(lefts>s1) s1=lefts;
-//		}
-//		s2=0;rights=0;
-//		for(i=center+1;i<=right;i++){
-//			rights+=a[i];
-//			if(rights>s2) s2=rights;
-//		}
-//		midSum=s1+s2;
-//		if(midSum<leftSum) sum=leftSum;
-//		else sum=midSum;
-//		if(sum<right) sum=rightSum;
-//	 } 
-//	 return sum;
-//}
+//第一次修改 
 int maxsum(int r[],int left,int right){
 	int max=-999999,leftmax,rightmax,midmax;
 	int s1=0,mLmax,s2=0,mRmax;
