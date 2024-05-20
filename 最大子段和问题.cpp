@@ -1,7 +1,12 @@
 #include<stdio.h>
+<<<<<<< HEAD
 //first changed on local false 
 //second changed on web achive
 //third changed by local 
+=======
+//first changed on web 
+//second changed on web 
+>>>>>>> remotes/origin/team
 int maxsum(int r[],int left,int right){
 	int max=-999999,leftmax,rightmax,midmax;
 	int s1=0,mLmax,s2=0,mRmax;
@@ -37,6 +42,10 @@ int maxsum(int r[],int left,int right){
 int main(){
 	int r[8]={-10,8,-3,6,-5,4,3,-7};
 	int max=maxsum(r,0,7);
+<<<<<<< HEAD
 	printf("%d",max);
+=======
+	printf("×î´óÖľ%d",max);
+>>>>>>> remotes/origin/team
 	return 0;
 } 
